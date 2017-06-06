@@ -1,0 +1,22 @@
+.word-component {
+    .fa {
+        cursor: pointer;
+    }
+
+    .fa:first-child {
+        margin-right: 8px;
+    }
+
+    .hides {
+        visibility: hidden;
+    }
+
+   .remove {
+        font-size: 1.5em;
+        color: red;
+    }
+}
+
+.word-component:hover > .hides {
+    visibility: visible;
+}

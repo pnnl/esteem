@@ -1,0 +1,20 @@
+.wordembedding-component {
+    svg {
+        width: 100%;
+        background-color: #f7f7f9;
+    }
+    
+    div.chart-tooltip {   
+        text-align: center;         
+        padding: 2px;
+        padding-left: 8px;
+        padding-right: 8px;
+        font: 12px sans-serif;      
+        background: black; 
+        color: white;
+        border: 0px;        
+        border-radius: 8px;         
+        pointer-events: none;           
+    }    
+
+}

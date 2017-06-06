@@ -1,0 +1,12 @@
+.navbar .navbar-brand {
+    span {
+        font-size: 1.5em;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    span.selected {
+        font-weight: bold;
+        border-bottom: .25em solid #0275E3;
+    }    
+}

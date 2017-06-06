@@ -1,0 +1,30 @@
+.wordembedding-chart {
+    g {
+        cursor: pointer;
+    }
+
+    line {
+        stroke: black;
+        stroke-width: 2px;
+    }
+
+    text {
+        text-anchor: end;
+        alignment-baseline: middle;
+        stroke-width: 0px;
+    }
+
+    path {
+        stroke-width: 0px;
+    }
+
+    g:hover > path {
+        fill-opacity: 0;
+        stroke-width: 1px;
+    }
+
+    .bigger {
+        fill: black;
+        stroke: black;
+    }
+}
