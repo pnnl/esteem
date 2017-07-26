@@ -52,7 +52,7 @@ const WordComponent = ({id, word='default', region='default', color='pink', isLo
       </span>
       {')'}
       <i
-        className='fa fa-minus-circle pull-right remove hides'
+        className='fa fa-minus-circle float-sm-right remove hides'
         onClick={() => onRemove && onRemove(id)}
       />
     </div>
