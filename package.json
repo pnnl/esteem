@@ -69,9 +69,13 @@
     "core-js": "^2.0.0",
     "d3": "^4.2.6",
     "font-awesome": "^4.6.3",
+    "immutable": "^3.8.1",
     "normalize.css": "^4.0.0",
     "react": "^15.0.0",
     "react-bootstrap-typeahead": "^0.10.3",
-    "react-dom": "^15.0.0"
+    "react-dom": "^15.0.0",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
   }
 }
