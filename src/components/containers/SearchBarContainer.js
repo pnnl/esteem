@@ -25,12 +25,12 @@ SOFTWARE.
 
 import {connect} from 'react-redux';
 
-import Typeahead from 'react-bootstrap-typeahead';
+import Typeahead from 'react-bootstrap-4-typeahead';
 import {addWord} from 'actions';
 
 export default connect(
-  ({vocab}) => ({options: vocab}),
+  ({vocab}) => ({options: vocab.map(label => ({label}))}),
   dispatch => ({
-    onChange: d => d.length > 0 && dispatch(addWord(d[0]))
+    onChange: d => d.length > 0 && dispatch(addWord(d[0].label))
   })
 )(Typeahead);

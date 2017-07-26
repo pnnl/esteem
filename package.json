@@ -72,7 +72,7 @@
     "immutable": "^3.8.1",
     "normalize.css": "^4.0.0",
     "react": "^15.0.0",
-    "react-bootstrap-typeahead": "^0.10.3",
+    "react-bootstrap-4-typeahead": "^0.9.0",
     "react-dom": "^15.0.0",
     "react-redux": "^5.0.5",
     "redux": "^3.7.2",
