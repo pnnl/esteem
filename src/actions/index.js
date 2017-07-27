@@ -34,6 +34,8 @@ export function loadModelNames () {
     d3.json('/api/', (err, data) => {
       console.log(data);
       if (!err) {
+        data.modelNames.sort();
+        
         dispatch({
           type: 'LOAD_JSON_DONE',
           data
