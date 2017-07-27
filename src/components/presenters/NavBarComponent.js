@@ -28,8 +28,6 @@ import React from 'react';
 import SearchBarContainer from '../containers/SearchBarContainer.js';
 import RegionChecklistContainer from '../containers/RegionChecklistContainer.js';
 
-// import 'styles/presenters/NavBar.scss';
-
 import 'bootstrap/dist/css/bootstrap.css';
 
 const ChecklistItem = ({data}) =>
