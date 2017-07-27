@@ -23,7 +23,7 @@ SOFTWARE.
 */
 
 
-require('normalize.css/normalize.css');
+// require('normalize.css/normalize.css');
 
 import React from 'react';
 
