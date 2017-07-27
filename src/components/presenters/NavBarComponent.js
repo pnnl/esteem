@@ -45,7 +45,10 @@ const NavBarComponent = ({isLoading, model, modelNames=[], onClick}) => (
 
     <ul className='navbar-nav mr-auto'>
         { modelNames.map(d =>
-            <li className={'nav-item' + (d === model ? ' active': '')}>
+            <li
+              key={d}
+              className={'nav-item' + (d === model ? ' active': '')}
+            >
               <a
                 key={d}
                 href='#'
