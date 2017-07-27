@@ -38,6 +38,10 @@ export function loadModelNames () {
           type: 'LOAD_JSON_DONE',
           data
         });
+
+        if (data.modelNames.length > 0) {
+          dispatch(loadModel(data.modelNames[0]));
+        }
       } else {
         console.err(err);
       }
