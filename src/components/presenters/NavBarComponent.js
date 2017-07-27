@@ -61,10 +61,10 @@ const NavBarComponent = ({isLoading, model, modelNames=[], onClick}) => (
 
     { !isLoading && model &&
       <form className='form-inline my-2 my-lg-0'>
-        <SearchBarContainer/>
         <RegionChecklistContainer title={'Regions'}>
           <ChecklistItem/>
         </RegionChecklistContainer>
+        <SearchBarContainer/>
       </form>
     }
   </nav>
