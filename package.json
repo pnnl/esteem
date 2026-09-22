@@ -69,7 +69,7 @@
     "core-js": "^2.0.0",
     "d3": "^4.2.6",
     "font-awesome": "^4.6.3",
-    "immutable": "^3.8.1",
+    "immutable": "^3.8.4",
     "normalize.css": "^4.0.0",
     "react": "^15.0.0",
     "react-bootstrap-4-typeahead": "^0.9.0",
